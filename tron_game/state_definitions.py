@@ -6,3 +6,5 @@ class State(Enum):
     GAME = "GAME"
     PAUSE = "PAUSE"
     GAME_OVER = "GAME_OVER"
+    OPTIONS = "OPTIONS"
+    MODE_SELECT = "MODE SELECT"

@@ -55,14 +55,19 @@ Jugador 2
 Pausa,P
 Debug Mode,F3
 
-📁 Estructura del Proyecto
-tron_game/
-├── assets/          # Imágenes, sonidos y fuentes tipográficas
-├── states/           # Gestión de estados (menú, partida, créditos)
-├── game.py           # Punto de entrada principal
-├── player.py         # Lógica y comportamiento de las motos
-├── settings.py       # Constantes y configuraciones globales
-└── ...
+### 📁 Estructura del Proyecto
+
+    ```text
+    tron_game/
+     ├── assets/          # Recursos (música, sonidos, sprites)
+     │   ├── images/
+     │   ├── sfx/
+     │   └── music/
+     ├── states/          # Lógica de estados (menú, juego, pausa)
+     ├── game.py          # Archivo principal (punto de entrada)
+     ├── player.py        # Clase de la moto y lógica de estelas
+     ├── settings.py      # Configuración de colores, teclas y FPS
+     └── utils.py         # Funciones auxiliares del SDK
 
 👥 Créditos - Grupo 4
 Victor Alcala
